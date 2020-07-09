@@ -1,0 +1,45 @@
+GraphTopologySet
+  InferencingFaceApi.json
+
+ 
+
+GraphInstanceSet
+{
+  "@apiVersion": "1.0",
+  "name": "Sample-Graph-FaceApi",
+  "properties": {
+    "topologyName": "InferencingWithFaceAPI",
+    "description": "Sample graph description",
+    "parameters": [
+      {
+        "name": "rtspUrl",
+        "value": "rtsp://rtspsim:554/media/lvatest2.mkv"
+      }
+    ]
+  }
+}
+
+GraphInstanceActivate
+{
+    "@apiVersion" : "1.0",
+    "name" : "Sample-Graph-FaceApi"
+}
+
+
+GraphInstanceDeactivate
+{
+    "@apiVersion" : "1.0",
+    "name" : "Sample-Graph-FaceApi"
+}
+
+GraphInstanceDelete
+{
+    "@apiVersion" : "1.0",
+    "name" : "Sample-Graph-FaceApi"
+}
+
+GraphTopologyDelete
+{
+    "@apiVersion" : "1.0",
+    "name" : "InferencingWithFaceAPI"
+}
