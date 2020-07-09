@@ -6,7 +6,7 @@ E2E Architect for Motion Face Detect with Azure LVA and Azure Face API
 
 (current only support x86/AMD devices)
 
-![alt](images/lva.jpg)
+![alt](images/lva.JPG)
 
 #### Prerequisites
 
@@ -44,7 +44,7 @@ When you complete the steps below, you will have used Live Video Analytics on Io
 
   - Create a new face cognitive service under **lva-sample-resources** resource group on azure portal. 
 
-    ![alt](D:\AI\GitHub\motionfacedetect\lva\images\lva_create_face.PNG)
+    ![alt](images/lva_create_face.PNG)
 
   - Train face api with provided person image names **Anne.jpg** under images folder, regards **Quickstarts -> Using the client library** [link](https://docs.microsoft.com/en-us/azure/cognitive-services/face/quickstarts/client-libraries?pivots=programming-language-python)
 
