@@ -6,5 +6,5 @@ This lab is to introduce a solution regards use OpenCV 4 to detect and recognize
 
 Steps:
 
-1. [Install Ubuntu 18.04 32bit GUI onto Raspberry Pi 4B]([https://github.com/alezhao/motionfacedetect/tree/master/oss/install%20ubuntu](https://github.com/alezhao/motionfacedetect/tree/master/oss/install ubuntu))
+1. [Install Ubuntu 18.04 32bit GUI onto Raspberry Pi 4B](ubuntu/readme.md)
 
