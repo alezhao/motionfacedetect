@@ -64,7 +64,7 @@ When you complete the steps below, you will have used Live Video Analytics on Io
 
       ![alt](images/lva_facenfunnew.JPG)
 
-  - Open VS code and click open downloaded lab file folder 
+  - Open VS code and click open downloaded lab file folder, and Unzip **facefunnew** to current folder
 
     `{your local folder}/func/facefunnew`
 
