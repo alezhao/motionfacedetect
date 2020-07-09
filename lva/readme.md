@@ -6,7 +6,7 @@ E2E Architect for Motion Face Detect with Azure LVA and Azure Face API
 
 (current only support x86/AMD devices)
 
-![alt](images/lva.jpg)
+![alt](images/lva.JPG)
 
 #### Prerequisites
 
