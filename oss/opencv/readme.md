@@ -68,14 +68,14 @@ This lab is to introduce how to install Open CV4 onto Raspberry Pi 4B. As there 
 
   - **Please ensure all of below packages installed successfully**. If met error, just install relevant dependency and do it again. Some of packages may be expired, just install alternative package regards output message. 
 
-    `sudo pip3 install numpy
-    sudo apt-get install build-essential git cmake pkg-config -y
-    sudo apt-get install libjpeg8-dev -y
-    sudo apt-get install libtiff5-dev -y
-    sudo apt-get install libjasper-dev -ysudo apt-get install libpng12-dev -y
-    sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y
-    sudo apt-get install libgtk2.0-dev -y
-    sudo apt-get install libatlas-base-dev gfortran -y`
+    `sudo pip3 install numpy`
+    `sudo apt-get install build-essential git cmake pkg-config -y`
+    `sudo apt-get install libjpeg8-dev -y`
+    `sudo apt-get install libtiff5-dev -y`
+    `sudo apt-get install libjasper-dev -ysudo apt-get install libpng12-dev -y`
+    `sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y`
+    `sudo apt-get install libgtk2.0-dev -y`
+    `sudo apt-get install libatlas-base-dev gfortran -y`
 
 - Download Open CV4 install package
 
@@ -83,32 +83,32 @@ This lab is to introduce how to install Open CV4 onto Raspberry Pi 4B. As there 
     cd home/ubuntu/Documents
     sudo mkdir motiondetect
     cd motiondetect`
-  - `git clone -b 4.3.0 --recursive https://github.com/opencv/opencv.git
-    git clone -b 4.3.0 --recursive https://github.com/opencv/opencv_contrib.git`
-  - `cd opencv-4.3.0
-    sudo mkdir build
-    cd build`
+  - `git clone -b 4.3.0 --recursive https://github.com/opencv/opencv.git`
+    `git clone -b 4.3.0 --recursive https://github.com/opencv/opencv_contrib.git`
+  - `cd opencv-4.3.0`
+    `sudo mkdir build`
+    `cd build`
 
 - Setup compile configuration
 
   - It would take a long period to setup compile configuration, just wait for complete
 
-    `sudo cmake -D CMAKE_BUILD_TYPE=RELEASE \
-    -D CMAKE_INSTALL_PREFIX=/usr/local \
-    -D INSTALL_C_EXAMPLES=ON \
-    -D INSTALL_PYTHON_EXAMPLES=ON \
-    -D OPENCV_EXTRA_MODULES_PATH=/home/ubuntu/Documents/motiondetect/opencv_contrib-4.3.0/modules \
-    -D BUILD_EXAMPLES=ON \
-    -D WITH_LIBV4L=ON \
-    -D PYTHON3_EXECUTABLE=/usr/bin/python3.6 \
-    -D PYTHON_INCLUDE_DIR=/usr/include/python3.6 \
-    -D PYTHON_LIBRARY=/usr/lib/arm-linux-gnueabihf/libpython3.6m.so \
-    -D PYTHON3_NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include \`
+    `sudo cmake -D CMAKE_BUILD_TYPE=RELEASE \`
+    `-D CMAKE_INSTALL_PREFIX=/usr/local \`
+    `-D INSTALL_C_EXAMPLES=ON \`
+    `-D INSTALL_PYTHON_EXAMPLES=ON \`
+    `-D OPENCV_EXTRA_MODULES_PATH=/home/ubuntu/Documents/motiondetect/opencv_contrib-4.3.0/modules \`
+    `-D BUILD_EXAMPLES=ON \`
+    `-D WITH_LIBV4L=ON \`
+    `-D PYTHON3_EXECUTABLE=/usr/bin/python3.6 \`
+    `-D PYTHON_INCLUDE_DIR=/usr/include/python3.6 \`
+    `-D PYTHON_LIBRARY=/usr/lib/arm-linux-gnueabihf/libpython3.6m.so \`
+    `-D PYTHON3_NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include \`
 
     Once output below then config successfully 
 
-    `Configuring done
-    Generating done`
+    `Configuring done`
+    `Generating done`
 
 - Start Compile
 
