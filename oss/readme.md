@@ -4,7 +4,13 @@ This lab is to introduce a solution regards use OpenCV 4 to detect and recognize
 
 ![alt](images/oss_e2e.PNG)
 
-Steps:
+#### Prerequisites
 
-1. [Install Ubuntu 18.04 32bit GUI onto Raspberry Pi 4B](ubuntu/readme.md)
+- An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+- [Visual Studio Code](https://code.visualstudio.com/) on your machine with [Azure IoT Tools extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools).
+- [Install Ubuntu 18.04 32bit GUI onto Raspberry Pi 4B](ubuntu/readme.md)
+- [install Open CV4 onto Raspberry Pi 4B](opencv/readme.md)
 
+#### Tutorials
+
+- 

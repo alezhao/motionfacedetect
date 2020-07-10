@@ -4,27 +4,26 @@
 
 This lab is build for how to install Ubuntu 18.04 32bit with GUI onto Raspberry Pi 4B, as Ubuntu 20.04 GUI still has issues so recommend to install 18.04 currently. 
 
-#### Preparation Before Start 
+#### Prerequisites 
 
-Raspberry Pi 4B
+- Raspberry Pi 4B
 
-microHDMI2HDMI 
+- microHDMI2HDMI 
 
-Display Monitor
+- Display Monitor
 
-Mouse
+- Mouse and Keyboard
 
-Keyboard
+- microSD card 16G < your card <128G (Raspberry Pi 4 only support maximum 128G )
 
-microSD card <128G (Raspberry Pi 4 only support maximum 128G )
+- microSD card reader
 
-microSD card reader
+- WAN capable
 
-WAN capable
 
-#### Quick Start
+#### Tutorials
 
-1. ##### Download [Ubuntu 18.04 Image](https://ubuntu.com/download/raspberry-pi)
+- ##### Download [Ubuntu 18.04 Image](https://ubuntu.com/download/raspberry-pi)
 
    ![alt](images/ubuntuimage.PNG)
 
@@ -32,7 +31,7 @@ WAN capable
 
    * Unzip image file from downloaded package
 
-2. ##### Burning OS
+- ##### Burning OS
 
    * Download [Win32 Disk Image](https://sourceforge.net/projects/win32diskimager/)  and install
    * Plug-in your microSD card with read to PC
@@ -40,7 +39,7 @@ WAN capable
 
    * Click **Write** 
 
-3. ##### Install OS
+- ##### Install OS
 
    * Plug-in your microSD card into Raspberry Pi 4B 
 
@@ -50,7 +49,7 @@ WAN capable
 
    * Login default account with username: ubuntu password: ubuntu, system will ask to change password at first login. 
 
-   * If you located in China, please change APT source to Ali cloud
+   * If you located in China, please change APT source to Ali cloud otherwise not
 
      * `sudo vim /etc/apt/sources.list`
 
@@ -75,22 +74,22 @@ WAN capable
      `sudo apt install ubuntu-desktop` 
 
      If output error, there has 2 option workaround:
-   
+
      * change source list back to official source from Ali cloud if need, then install GUI again
-   
+
        `sudo vim /etc/apt/sources.list`
-   
+
        `:%s/mirrors.aliyun.com/ports.ubuntu.com/g`
-   
+
        `:wq`
-   
+
        `sudo apt-get update`
-   
+
        `sudo apt-get upgrade` 
-   
+
        `sudo apt install ubuntu-desktop`
-   
+
    * Reboot and login Ubuntu GUI
-   
+
      `sudo reboot`
 
