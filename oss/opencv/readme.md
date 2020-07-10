@@ -133,7 +133,7 @@ This lab is to introduce how to install Open CV4 onto Raspberry Pi 4B. As there 
 
       `cp home/ubuntu/Documents/motiondetect/opencv-4.3.0/modules/features2d/test/test_descriptors_regression.cpp home/ubuntu/Documents/motiont/opencv_contrib-4.3.0/modules/xfeatures2d/test/`
 
-      ``cp home/ubuntu/Documents/motiondetect/opencv-4.3.0/modules/features2d/test/test_detectors_regression.cpp home/ubuntu/Documents/motiont/opencv_contrib-4.3.0/modules/xfeatures2d/test/`
+      `cp home/ubuntu/Documents/motiondetect/opencv-4.3.0/modules/features2d/test/test_detectors_regression.cpp home/ubuntu/Documents/motiont/opencv_contrib-4.3.0/modules/xfeatures2d/test/`
 
     - Update CPP reference file as below
 
