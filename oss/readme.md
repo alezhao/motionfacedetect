@@ -13,4 +13,8 @@ This lab is to introduce a solution regards use OpenCV 4 to detect and recognize
 
 #### Tutorials
 
-- 
+- Configure Azure IOT HUB
+- Configure Azure Event Hub 
+- Configure Azure Logic App to trigger event hub message and route to **Microsoft Teams**
+- Configure motion detect and facial recognition script onto Raspberry Pi 
+- Verify

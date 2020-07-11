@@ -6,6 +6,10 @@ OSS solution is a light solution with lower cost which use for single family.
 
 [Motion Face Detect by Raspberry PI 4B](oss/readme.md)
 
-Azure solution is end to end solution which use for community.   
+![alt](oss/images/oss_e2e.PNG)
+
+Azure solution is end to end solution which use for large department.   
 
 [Motion Face Detect by Live Video Analysis and Face API](lva/readme.md)
+
+![alt](lva/images/lva.JPG)
