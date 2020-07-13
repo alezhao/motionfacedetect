@@ -129,8 +129,8 @@ This lab is to introduce a solution regards use OpenCV 4 to detect and recognize
 
   - `Python3 motionfacetrain.py`
 
-    ![alt](D:\AI\GitHub\motionfacedetect\oss\images\verify.jpg)
+    ![alt](images/verify.jpg)
 
   - Verify on Teams Channel.
 
-    ![alt](D:\AI\GitHub\motionfacedetect\oss\images/teams.jpg)
+    ![alt](images/teams.jpg)
