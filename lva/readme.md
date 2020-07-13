@@ -164,13 +164,13 @@ When you complete the steps below, you will have used Live Video Analytics on Io
 
 When you complete the steps below, you will get notification from **Microsoft Teams** once person detect by live video analysis. 
 
-- Create a new **Event Hubs** under resources group **lva-sample-resources** on Azure portal
+- Click **Create a resource** in Azure portal left panel 
 
-  - name **lvaeventhubs**
+- Search and create a new **Event Hubs** with name **lvaeventhubs** under **lva-sample-resources** created at previous step 
 
-- Create a new **Event Hub** under **lvaeventhubs** you just created. 
+- From **lvaeventhubs** left panel, create a new **Event Hub** with name **lvaeventhub**
 
-  - name **lvaeventhub**
+  ![alt](images/eventhubs.PNG)
 
 - Config IOT HUB to route telemetry message to pervious created event hub **lvaeventhub**
 
@@ -178,7 +178,7 @@ When you complete the steps below, you will get notification from **Microsoft Te
 
     ![alt](images/lva_iothub_routing.PNG)
 
-  - Click Add a new **Routes**, and entry a name, and select event hub endpoint **lvaeventhub** you just created. 
+  - Click **Add** to create a new **event hub endpoint**, and entry a **eventhub_route**, and select event hub endpoint **lvaeventhub** you just created. 
 
     ![alt](images/lva_Add_Route.PNG)
 
