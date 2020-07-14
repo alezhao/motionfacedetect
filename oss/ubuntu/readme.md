@@ -63,7 +63,7 @@ This lab is build for how to install Ubuntu 18.04 32bit with GUI onto Raspberry 
 
        `:wq`
 
-       ![alt](images\sourceslist.jpg)
+       ![alt](images/sourceslist.jpg)
 
      * `sudo apt-get update` 
 
