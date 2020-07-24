@@ -70,7 +70,7 @@ When you complete the steps below, you will have used Live Video Analytics on Io
 
   - Modify init.py with created face services' {Face API Name} and {Face API Key} in below section
 
-    ![alt](D:\AI\GitHub\motionfacedetect\lva\images\lva_func_modify.PNG)
+    ![alt](images/lva_func_modify.PNG)
 
   - Click **F1** and entry **Sign In** to sign in your azure account
 
